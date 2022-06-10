@@ -34,7 +34,7 @@ cv2.namedWindow('Color Recognition')
 cv2.setMouseCallback('Color Recognition', mouse_click)
 
 while(1):
-    cv2.imshow("Color Recognition App", img)
+    cv2.imshow("Color Recognition App")
     if (clicked):
         #cv2.rectangle(image, startpoint, endpoint, color, thickness)-1 fills entire rectangle 
         cv2.rectangle(img,(20,20), (750,60), (b,g,r), -1)#Creating text string to display( Color name and RGB values )
