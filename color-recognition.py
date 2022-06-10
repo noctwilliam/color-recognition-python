@@ -30,8 +30,8 @@ def mouse_click(event, x, y, flags, param):
 		g = int(g)
 		b = int(b)
 
-cv2.namedWindow('Color Recognition App')
-cv2.setMouseCallback('Color Recognition App', mouse_click)
+cv2.namedWindow('Color Recognition')
+cv2.setMouseCallback('Color Recognition', mouse_click)
 
 while(1):
     cv2.imshow("Color Recognition App", img)
