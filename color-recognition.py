@@ -1,4 +1,4 @@
-# run pip install numpy pandas opencv-python
+# run pip install numpy pandas opencv-python tkinter
 
 import numpy as np
 import pandas as pd
