@@ -3,9 +3,14 @@
 import numpy as np
 import pandas as pd
 import cv2
+import tkinter as tk
+from tkinter import filedialog
+from turtle import title
 
+root = tk.Tk()
+root.withdraw()
 
-img = cv2.imread(input("Input a File location: "))
+img = cv2.imread(filedialog.askopenfilename(initialdir="/", title = "Select Image", filetype = (("jpeg files", "*.jpeg"), ("png files", "*.png"))))
 index=["color", "color_name", "hex", "R", "G", "B"]
 csv = pd.read_csv('colors.csv', names=index, header=None)
 
