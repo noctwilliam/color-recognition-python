@@ -10,7 +10,7 @@ from turtle import title
 root = tk.Tk()
 root.withdraw()
 
-img = cv2.imread(filedialog.askopenfilename(initialdir="/", title = "Select Image", filetype = (("jpeg files", "*.jpeg"), ("png files", "*.png"))))
+img = cv2.imread(filedialog.askopenfilename(initialdir="/", title = "Select Image", filetype = (("jpeg files", "*.jpeg"), ("png files", "*.png"), ("jpg files", "*.jpg"))))
 index=["color", "color_name", "hex", "R", "G", "B"]
 csv = pd.read_csv('colors.csv', names=index, header=None)
 
