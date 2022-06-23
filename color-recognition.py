@@ -1,4 +1,5 @@
 # run pip install numpy pandas opencv-python
+# source https://towardsdatascience.com/building-a-color-recognizer-in-python-4783dfc72456
 
 import numpy as np
 import pandas as pd
